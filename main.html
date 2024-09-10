@@ -5,112 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>MovieVerse - Watch Movies & TV Shows</title>
-    <style>     
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #0a0000;
-            color: #333;
-        }
-
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background-color: #1a1a1a;
-            color: #fff;
-        }
-
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 15px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-
-        .banner {
-            background: url('banner.png') ;
-            height: 575px;
-            color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        .banner h1{
-            font-size: 36px;
-            text-shadow:0 0 5px #000000;
-        }
-        .banner p{
-            text-shadow:0 0 5px #000000;
-            margin: 10px 0;
-        }
-        .banner-content button {
-            background-color: #000000;
-            color: white;
-            padding: 10px 20px;
-        }
-
-
-        section {
-            padding: 40px 20px;
-            background-color: #e4e3e3;
-        }
-
-        h2 {
-            margin-bottom: 20px;
-            font-size: 28px;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 20px;
-        }
-
-        .card {
-            background-color: #c3c2ca;
-            padding: 10px;
-            text-align: center;
-            box-shadow: 0 0 7px #a5a5a5;
-
-        }
-
-        .card img {
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-
-        .card p {
-            margin-top: 10px;
-            font-weight: bold;
-        }
-        footer {
-            text-align: center;
-            background-color: #1a1a1a;
-            color: white;
-            padding: 20px 0;
-        }
-
-
-
-    </style>
 </head>
 <body>
     <header>
-        <div class="logo">MovieVerse</div>
+        <div>MovieVerse</div>
         <nav>
             <ul>
                 <li><a href="main.html">Home</a></li>
@@ -119,101 +17,99 @@
                 <li><a href="genres.html">Genres</a></li>
             </ul>
         </nav>
-        <div class="search-bar">
+        <div>
             <input type="text" placeholder="Search...">
             <button>Search</button>
         </div>
-        <div class="auth-buttons">
+        <div>
             <button>Login</button>
             <button>Sign Up</button>
         </div>
     </header>
 
-    <section class="banner">
-        <div class="banner-content">
+    <section>
+        <div>
             <h1>Featured TV Show of the Week</h1>
-            <p>Catch the latest hit TV SHow now streaming!</p>
+            <p>Catch the latest hit TV Show now streaming!</p>
             <a href="dark.html">
-                <button src="dark.html">Watch Now</button>
+                <button>Watch Now</button>
             </a>
-            
         </div>
     </section>
 
-    <section class="trending">
+    <section>
         <h2>Trending Movies & TV Shows</h2>
-        <div class="grid">
-            <div class="card">
-                <img src="movie1.png" alt="Movie 1">
+        <div>
+            <div>
+                <img src="movie1.png" alt="Movie 1" width="150" height="225">
                 <p>Taxi Driver</p>
             </div>
             
-            <div class="card">
-                <img src="movie2.png" alt="Parasite">
+            <div>
+                <img src="movie2.png" alt="Parasite" width="150" height="225">
                 <p>Parasite</p>
             </div>
-            <div class="card">
-                <img src="movie3.png" alt="Breaking Bad">
+            <div>
+                <img src="movie3.png" alt="Breaking Bad" width="150" height="225">
                 <p>Breaking Bad</p>
             </div>
-            <div class="card">
-                <img src="movie4.png" alt="Dark">
+            <div>
+                <img src="movie4.png" alt="Dark" width="150" height="225">
                 <p>Dark</p>
             </div>
-            <div class="card">
-                <img src="movie5.png" alt="Bojack Horseman">
+            <div>
+                <img src="movie5.png" alt="Bojack Horseman" width="150" height="225">
                 <p>Bojack Horseman</p>
             </div>
-            <div class="card">
-                <img src="movie6.png" alt="Harakiri">
+            <div>
+                <img src="movie6.png" alt="Harakiri" width="150" height="225">
                 <p>Harakiri</p>
             </div>
-            <div class="card">
-                <img src="movie7.png" alt="Beef">
+            <div>
+                <img src="movie7.png" alt="Beef" width="150" height="225">
                 <p>Beef</p>
             </div>
-            <div class="card">
-                <img src="movie8.png" alt="The Skin I Live In">
+            <div>
+                <img src="movie8.png" alt="The Skin I Live In" width="150" height="225">
                 <p>The Skin I Live In</p>
             </div>
-            
         </div>
     </section>
     
-    <section class="new-releases">
+    <section>
         <h2>New Releases</h2>
-        <div class="grid">
-            <div class="card">
-                <img src="movie1.png" alt="Movie 1">
+        <div>
+            <div>
+                <img src="movie1.png" alt="Movie 1" width="150" height="225">
                 <p>Taxi Driver</p>
             </div>
             
-            <div class="card">
-                <img src="movie2.png" alt="Parasite">
+            <div>
+                <img src="movie2.png" alt="Parasite" width="150" height="225">
                 <p>Parasite</p>
             </div>
-            <div class="card">
-                <img src="movie3.png" alt="Breaking Bad">
+            <div>
+                <img src="movie3.png" alt="Breaking Bad" width="150" height="225">
                 <p>Breaking Bad</p>
             </div>
-            <div class="card">
-                <img src="movie4.png" alt="Dark">
+            <div>
+                <img src="movie4.png" alt="Dark" width="150" height="225">
                 <p>Dark</p>
             </div>
-            <div class="card">
-                <img src="movie5.png" alt="Bojack Horseman">
+            <div>
+                <img src="movie5.png" alt="Bojack Horseman" width="150" height="225">
                 <p>Bojack Horseman</p>
             </div>
-            <div class="card">
-                <img src="movie6.png" alt="Harakiri">
+            <div>
+                <img src="movie6.png" alt="Harakiri" width="150" height="225">
                 <p>Harakiri</p>
             </div>
-            <div class="card">
-                <img src="movie7.png" alt="Beef">
+            <div>
+                <img src="movie7.png" alt="Beef" width="150" height="225">
                 <p>Beef</p>
             </div>
-            <div class="card">
-                <img src="movie8.png" alt="The Skin I Live In">
+            <div>
+                <img src="movie8.png" alt="The Skin I Live In" width="150" height="225">
                 <p>The Skin I Live In</p>
             </div>
         </div>
@@ -221,7 +117,7 @@
 
     <footer>
         <p>&copy; 2024 MovieVerse.</p>
-        <div class="social-media">
+        <div>
             <a>Telegram</a>
         </div>
     </footer>
